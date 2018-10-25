@@ -1,0 +1,13 @@
+Package: SNPfreq
+Version: 0.0
+Date: 2018-10-25
+Title: SNP Allele Frequency Estimation and Utilities
+Authors@R: person("RJ", "Twohey", role = c("aut", "cre"),
+                  email = "twohey2@illinois.edu")
+Author: RJ Twohey [aut, cre]
+Maintainer: RJ Twohey <twohey2@illinois.edu>
+Description: This package includes functions to estimate minor allele frequencies
+  from numerical SNP data, plot histograms of minor allele frequencies, and
+  filter SNP data based on minor allele frequencies.
+Url: https://github.com/rj2E/Lab-9-package
+License: GPL-3

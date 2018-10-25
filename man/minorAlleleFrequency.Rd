@@ -11,7 +11,7 @@ Functions to Work on Minor Allele Frequencies
 Functions will estimate minor allele frequencies. They will also remove SNPs if they dont meet the treshold and plot a histogram of minor allele frequencies. 
 }
 \usage{
-minorAlleleFrequency(SNPMat)
+minorAlleleFrequency(SNPmat)
 filterSNPs(SNPmat, minMAF = 0.05)
 mafHist(SNPmat)
 }
@@ -40,9 +40,7 @@ L. Clark, revised by RJ Twohey
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
+
 \examples{
 # set up a dataset for this example
 mySNP <- matrix(sample(c(0, 1, 2), 64, replace = TRUE), nrow = 8, ncol = 8)

@@ -28,4 +28,5 @@ mafHist <- function(SNPmat){
   hist(maf)
 }
 
+prompt(minorAlleleFrequency)
 
